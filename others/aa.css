@@ -1,0 +1,10 @@
+.row1
+{
+    background-image: url(./images/1.jpg);
+    height: 100vh;
+}
+.row2
+{
+    background-color: aquamarine;
+    height: 100vh;
+}

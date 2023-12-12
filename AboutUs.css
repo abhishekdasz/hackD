@@ -1,0 +1,66 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#about-page
+{
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.220);
+    /* background-image: url("./CORONA2.jpg"); */
+    background-blend-mode: darken;  
+}
+.back-illustration
+{
+    height: 100vh;
+    z-index: -1;
+    position: absolute;
+}
+.back-illustration img
+{
+    position: absolute;
+    z-index: -1;
+    width: 1518px;
+    height: 713px;
+}
+.left-content
+{
+    position: absolute;
+    z-index: 1;
+
+    margin-top: 78px;
+    margin-left: 116px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.left-content h1
+{
+    font-size: 55px;
+    color: #272727;
+}
+.left-content h2
+{
+    font-size: 60px;
+    margin-bottom: 40px;
+    color: #3c3969;
+}
+.left-content p
+{
+    max-width: 616px;
+    font-size: 35px;
+    font-weight: 500;
+    color: #1d1c1c;
+    /* color: #ffbd59;
+    /* color: #ffbd59; */
+}
+.right-content
+{
+    position: absolute;
+    z-index: 1;
+}
+.right-content img
+{
+    position: absolute;
+    z-index: 1;
+    width: 606px;
+    margin-left: 750px;
+}

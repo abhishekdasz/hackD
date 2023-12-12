@@ -1,0 +1,40 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.about-page
+{
+    height: 100vh;
+}
+.back-illustration-1
+{
+    width: 100%;
+    background-color: aqua;
+    position: absolute;
+}
+.back-illustration-1 img
+{
+    margin-left: 334px;
+    width: 1586px;
+}
+
+.back-illustration-2
+{
+    position: absolute;
+}
+.back-illustration-2 img
+{
+    margin-left: 0px;
+    width: 1586px;
+    /* z-index: -2; */
+}
+.back-illustration-3
+{
+    position: absolute;
+}
+.imggg img
+{
+    width: 1920px;
+    height: 892px;
+}

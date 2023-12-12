@@ -1,0 +1,212 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+/* Navbar starts here */
+.new
+{
+    height: 100vh;
+}
+.navbar
+{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    z-index: 3;
+}
+.navbar .logo
+{
+    margin-top: 28px;
+    margin-left: 75px;
+}
+.navbar .logo img
+{
+    width: 120px;
+}
+.navbar ul
+{
+    display: flex;
+    list-style: none;
+}
+.navbar ul li
+{
+    /* width: 120px; */
+    margin: 15px;
+    padding: 15px;
+    font-size: 25px;
+}
+
+.navbar ul a
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 3px 13px;
+}
+
+.navbar .menus ul li a:hover
+{
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+}
+
+.navbar .menus ul li .subMenu-1
+{
+    display: none;
+}
+.navbar .menus ul li:hover .subMenu-1
+{
+    display: block;
+    position: absolute;
+    background: black;
+
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.navbar .menus ul li:hover .subMenu-1 ul
+{
+    display: block;
+}
+
+.navbar .menus ul li:hover .subMenu-1 ul li
+{
+    width: 100px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: transparent;
+    border-radius: 0;
+}
+
+.navbar .menus ul li:hover .subMenu-1 ul li :last-child
+{
+    border-bottom: none;
+}
+
+.navbar .menus ul li:hover .subMenu-1 ul li a:hover
+{
+    background: none;
+    color: seagreen;
+}
+/* Navbar ends here */
+
+
+
+/* Home Page starts here*/
+.circle
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #295280;
+    /* clip-path: circle(765px at left 500px); */
+
+    clip-path: circle(24% at 80% -25%);
+    z-index: 1;
+}
+
+.circle-2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #295280;
+    /* clip-path: circle(720px at left 500px); */
+
+    clip-path: circle(24% at 20% 133%);
+    z-index: -1;
+}
+/* .semiCircle-1
+{
+    position: absolute;
+    background: #00B6FF;
+    padding: 1em;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    width: 100%;
+
+    clip-path: circle(10% at 10% 0%);
+
+    z-index: -1;
+} */
+
+.page-1
+{
+    display: flex;
+    height: 100vh;
+    /* background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%); */
+    background: rgba(0, 0, 0, 0.56);
+    z-index: -1;
+}
+
+.leftside
+{
+    width: 45%;
+    height: auto;
+    overflow: hidden;
+    /* color: #f6fbfb */
+    /* background-color: aquamarine; */
+}
+.leftside .content
+{
+    position: absolute;
+    margin-top: 372px;
+    margin-left: 140px;
+    max-width: 550px;
+    color: #fff;
+    z-index: 2;
+}
+
+.leftside h2
+{
+    font-size: 65px;
+    margin-bottom: 30px;
+}
+.leftside h3
+{
+    font-size: 30px;
+}
+.leftside button
+{
+    width: 160px;
+    border: 0;
+    padding: 12px 10px;
+    outline: none;
+    color: #fff;
+    background: linear-gradient(to right,#ff469f, #ff6062);
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/* .content::after
+{
+    content: '';
+    width: 22px;
+    height: 35%;
+    background: linear-gradient(#ff469f, #ff6062);
+    position: absolute;
+    left: 75px;
+    top: 383px;
+} */
+.rightside
+{
+    width: 55%;
+    /* background-color: aqua; */
+}
+
+.rightside img
+{
+    width: 68%;
+    margin-top: 260px;
+    margin-left: 203px;
+}
+/* Home Page ends here*/

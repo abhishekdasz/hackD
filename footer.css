@@ -1,0 +1,160 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+#footer-section
+{
+    height: 100vh;
+    position: relative;
+    background-image: linear-gradient( 135deg, #81FFEF 10%, #F067B4 100%);
+    z-index: 1;
+}
+.footer-page
+{
+    position: relative;
+    background: black;
+}
+#footer-page h1
+{
+    text-align: center;
+    font-size: 46px;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 8px;
+    color: #262626;
+}
+.footer-back
+{
+    display: flex;
+    color: white;
+    margin-left: 308px;
+}
+.footer-back a
+{
+    text-decoration: none;
+}
+.Developer
+{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 17px;
+    background: rgb(244, 241, 241);
+    color: black;
+    width: 203px;
+    border-radius: 10px;
+    padding-bottom: 14px;
+    
+    cursor: pointer;
+}
+.Developer:hover
+{
+    transform: translateY(-10px);
+}
+.Developer img
+{
+    border-radius: 192px;
+    width: 162px;
+    height: 200px;
+    margin-top: 7px;
+    /* padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 23px;
+    padding-bottom: 23px; */
+}
+.Developer h2
+{
+    font-size: 27px;
+}
+.Developer h3
+{
+    font-size: 23px;
+    padding-bottom: 3px;
+}
+.Developer h5
+{
+    font-size: 17px;
+}
+
+
+footer
+{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(to right, #00093c, #2d0b00);
+    color: #fff;
+    padding: 100px 0 30px;
+    border-top-left-radius: 125px;
+    font-size: 19px;
+    line-height: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    z-index: -1;
+}
+.row
+{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+.col
+{
+    flex-basis: 18%;
+    padding: 0px;
+}
+.email-id a
+{
+    text-decoration: none;
+}
+.logo
+{
+    width: 120px;
+    padding-top: 10px;
+    margin-bottom: 45px;
+}
+.col h3
+{
+    width: fit-content;
+    margin-bottom: 40px;
+    position: relative;
+}
+.col form
+{
+    margin-bottom: 22px;
+}
+.col form input
+{   
+    width: 255px;
+    border-radius: 10px;
+    height: 30px;
+    padding: 10px;
+}
+.email-id
+{
+    width: fit-content;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+ul li
+{
+    list-style: none;
+    margin-bottom: 12px;
+}
+ul li a
+{
+    text-decoration: none;
+    color: #ccc;
+}
+.social-icon img
+{
+    width: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
